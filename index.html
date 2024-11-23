@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Replica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section with Cart Icon -->
+    <header>
+        <div class="logo">
+            <img src="image/photo_2024-11-22_11-00-21.jpg" alt="Amazon Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products">
+            <button>Search</button>
+        </div>
+        <div class="cart">
+            <button id="cart-btn">
+                <span class="cart-icon">🛒</span> 
+                Cart (<span id="cart-count">0</span>)
+            </button>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Today's Deals</a></li>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">Amazon Basics</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content with Product Cards -->
+    <main>
+        <section class="featured-products">
+            <h2>Featured Products</h2><br><br><br>
+            <!-- Product Cards -->
+          <br><br>  <div class="product-card" >
+                <img src="image/air pode.jpg" alt="Product 1">
+                <h3>Airpode</h3>
+                <p>$19.99</p>
+                <button class="add-to-cart" data-name="Product 1" data-price="19.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="image/ball.jpg" alt="Product 2">
+                <h3>ball</h3>
+                <p>$29.99</p>
+                <button class="add-to-cart" data-name="Product 2" data-price="29.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="image/baysicle.jpg" alt="Product 3">
+                <h3>baysicle</h3>
+                <p>$39.99</p>
+                <button class="add-to-cart" data-name="Product 3" data-price="39.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="image/clothe.jpg" alt="Product 4">
+                <h3>clothe</h3>
+                <p>$49.99</p>
+                <button class="add-to-cart" data-name="Product 4" data-price="49.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="image/cosmotics.jpg" alt="Product 5">
+                <h3>cosmotics</h3>
+                <p>$59.99</p>
+                <button class="add-to-cart" data-name="Product 5" data-price="59.99">Add to Cart</button>
+            </div>
+            <!-- Additional Products (New 10) -->
+            <div class="product-card">
+                <img src="image/furniture.jpg" alt="Product 6">
+                <h3>furniture</h3>
+                <p>$19.49</p>
+                <button class="add-to-cart" data-name="Product 6" data-price="19.49">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="image/hadphone.jpg" alt="Product 7">
+                <h3>hadphone</h3>
+                <p>$24.99</p>
+                <button class="add-to-cart" data-name="Product 7" data-price="24.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="image/human hair.jpg" alt="Product 8">
+                <h3>human hair</h3>
+                <p>$34.99</p>
+                <button class="add-to-cart" data-name="Product 8" data-price="34.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="image/pc bag.jpg" alt="Product 9">
+                <h3>pc bag</h3>
+                <p>$44.99</p>
+                <button class="add-to-cart" data-name="Product 9" data-price="44.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="image/pc fan.jpg" alt="Product 10">
+                <h3>pc fan</h3>
+                <p>$54.99</p>
+                <button class="add-to-cart" data-name="Product 10" data-price="54.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="image/phone.jpg" alt="Product 11">
+                <h3>phone</h3>
+                <p>$64.99</p>
+                <button class="add-to-cart" data-name="Product 11" data-price="64.99">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="image/toys.jpg" alt="Product 12">
+                <h3>Toys</h3>
+                <p>$74.99</p>
+                <button class="add-to-cart" data-name="Product 12" data-price="74.99">Add to Cart</button>
+            </div>
+            <div class="product-card" style="position: absolute;left: 280PX;top: 840px; height: 300px;">
+                <img src="image/tv stand.jpg" alt="Product 13">
+                <h3>Tv stand</h3>
+                <p>$84.99</p>
+                <button class="add-to-cart" data-name="Product 13" data-price="84.99">Add to Cart</button>
+            </div>
+            <div class="product-card" style="position: absolute;left: 550px;top:840px ;height: 300px;">
+                <img src="image/tv.jpg" alt="Product 14">
+                <h3>TV</h3>
+                <p>$94.99</p>
+                <button class="add-to-cart" data-name="Product 14" data-price="94.99">Add to Cart</button>
+            </div>
+            <div class="product-card" style="position: absolute;left: 790px;top: 840px; height: 300px;">
+                <img src="image/victus.jpg" alt="Product 15">
+                <h3>Victus gamming Laptop</h3>
+                <p>$104.99</p>
+                <button class="add-to-cart" data-name="Product 15" data-price="104.99">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Amazon Clone</p>
+    </footer>
+
+    <!-- Cart Modal (Hidden) -->
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-modal-content">
+            <span id="close-modal" class="close-modal">&times;</span>
+            <h3>Your Cart</h3>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
